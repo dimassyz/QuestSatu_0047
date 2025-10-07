@@ -64,7 +64,7 @@ class MyWidget extends StatelessWidget {
             Text("Kelas: B"),
             Text("NIM: 3012310047", style: TextStyle(color: Colors.red),),
             Text("Alamat: Ds.Gempolkurung"),
-            Text("Semester: 5")],
+            Text("Semester: 5", style: TextStyle(fontSize: 15),)],
             ),
             ],
            )
