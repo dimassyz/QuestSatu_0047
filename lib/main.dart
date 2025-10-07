@@ -60,7 +60,7 @@ class MyWidget extends StatelessWidget {
                 SizedBox(
                   height: 20,
                 ),
-            Text("Nama: Dimas Setiawan"),
+            Text("Nama: Dimas Setiawan", style: TextStyle(fontWeight: FontWeight.bold),),
             Text("Kelas: B"),
             Text("NIM: 3012310047"),
             Text("Alamat: Ds.Gempolkurung"),
