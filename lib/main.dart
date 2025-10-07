@@ -41,7 +41,16 @@ class MyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+      body: Center(
+        child: Column(
+          children: [
+            CircleAvatar(
+              radius: 100,
+              backgroundImage: AssetImage('assets/images/foto_gapura.jpg')
+            ),
+          ],
+        )
+      )
     );
   }
 }
